@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <a href="#"><img src="logo.png" title="Logo do site"
+          alt="O nome do açogue Delicias da carne com o contorno de um boi"></a>
+    </div>
+    <nav>
+      <ul class="container">
+        <li><a href="#carnesExoticas" title="Carnes Exóticas">Carnes Exóticas</a>
+        </li>
+        <li><a href="#cortesNobres" title="Cortes Nobres">Carnes Nobres</a>
+        </li>
+        <li><a href="#quemSomos" title="Quem Somos">Quem Somos</a>
+        </li>
+        <li><a href="#localizacao" title="Localização">Localização</a>
+        </li>
+        <li><a href="#contato" title="Contato">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="carousel">
+  <div class="carousel-container">
+    <div class="carousel-item">
+      <div class="carousel-img">
+        <video src="faleConosco.mp4" alt="Vídeo de um prato de picadinho com cebola e pimentão vermelho e uma flor roxa de decoração" title="Fale Conosco" autoplay muted loop></video>
+      </div>
+      <div class="caption">
+        Fale Conosco!
+        <br>
+        <p>Queremos saber as suas preferências e como podemos dar o nosso melhor para poder agradar cada um de nossos clientes. Basta preencher um formulário!</p>
+        <br>
+        <a href="#contato">Saiba Mais</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-img">
+        <video src="quemSomos.mp4" alt="Vídeo de um picadinho com cebola e pimentões vermlho, amarelo e verde em uma grelha" title="Quem somos" autoplay muted loop></video>
+      </div>
+      <div class="caption">
+        Quem Somos!
+        <br>
+        <p>Há 40 anos entregando qualidade em todos os nossos produtos.</p>
+        <br>
+        <a href="#quemSomos">Nos conheça um pouco mais</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-img">
+        <video src="localizacao.mp4" alt="Vídeo de um prato de com uma carne fatiada e flores roxas de decoração" title="Mapa de Manchester" autoplay muted loop></video>
+      </div>
+      <div class="caption">
+        Localização
+        <br>
+        <p>Descubra onde nos achar!</p>
+        <br>
+        <a href="#localizacao">Onde estamos</a>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-indicators">
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+  </div>
+  <div class="carousel-prev">&#8249;</div>
+  <div class="carousel-next">&#8250;</div>
+</div>
+
+  <section id="carnesExoticas">
+    <h1>
+      Carnes exóticas</h1>
+    <ul class="imageExotica">
+      <li class="ie">
+        <img src="codorna.jpg" title="Carne de Codorna" alt="Carne de codorna em cima de uma tábua">
+        <div class="info">
+          <h2>Carne de Codorna</h2>
+          <div class="rating">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text"></label>
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text"></label>
+            <input checked="" type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text"></label>
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text"></label>
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text"></label>
+          </div>
+          <a href="https://www.receiteria.com.br/receitas-de-codorna/" target="_blank">Ver receitas</a>
+        </div>
+      </li>
+      <li class="ie">
+        <img src="cordeiro.jpg" title="Carne de Cordeiro" alt="Carne de cordeiro em cima de um prato">
+        <div class="info">
+          <h2>Carne de Cordeiro</h2>
+          <div class="rating">
+            <input type="radio" id="star10" name="rate1" value="10">
+            <label for="star10" title="text"></label>
+            <input type="radio" id="star9" name="rate1" value="9">
+            <label for="star9" title="text"></label>
+            <input checked="" type="radio" id="star8" name="rate1" value="8">
+            <label for="star3" title="text"></label>
+            <input type="radio" id="star7" name="rate1" value="7">
+            <label for="star7" title="text"></label>
+            <input type="radio" id="star6" name="rate1" value="6">
+            <label for="star6" title="text"></label>
+          </div>
+          <a href="https://www.receiteria.com.br/receitas-com-cordeiro/" target="_blank">Ver receitas</a>
+        </div>
+      </li>
+      <li class="ie">
+        <img src="jacare.jpg" title="Carne de Jacaré"
+          alt="Carne de jacaré em cima de um pano verde com outros pedaços de jacaré">
+        <div class="info">
+          <h2>Carne de Jacaré</h2>
+          <div class="rating">
+            <input type="radio" id="star15" name="rate2" value="15">
+            <label for="star15" title="text"></label>
+            <input type="radio" id="star14" name="rate2" value="14">
+            <label for="star14" title="text"></label>
+            <input checked="" type="radio" id="star13" name="rate2" value="13">
+            <label for="star13" title="text"></label>
+            <input type="radio" id="star12" name="rate2" value="12">
+            <label for="star12" title="text"></label>
+            <input type="radio" id="star11" name="rate2" value="11">
+            <label for="star11" title="text"></label>
+          </div>
+          <a href="https://www.receiteria.com.br/receitas-de-carne-de-jacare/" target="_blank">Ver receitas</a>
+        </div>
+      </li>
+      <li class="ie">
+        <img src="javali.jpg" title="Carne de Javali"
+          alt="Carne de javali em cima de um fundo preto com textura de madeira">
+        <div class="info">
+          <h2>Carne de Javali</h2>
+          <div class="rating">
+            <input type="radio" id="star20" name="rate3" value="20">
+            <label for="star20" title="text"></label>
+            <input type="radio" id="star19" name="rate3" value="19">
+            <label for="star19" title="text"></label>
+            <input checked="" type="radio" id="star18" name="rate3" value="18">
+            <label for="star18" title="text"></label>
+            <input type="radio" id="star17" name="rate3" value="12">
+            <label for="star17" title="text"></label>
+            <input type="radio" id="star16" name="rate3" value="16">
+            <label for="star16" title="text"></label>
+          </div>
+          <a href="https://www.receiteria.com.br/receitas-com-carne-de-javali/" target="_blank">Ver receitas</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="cortesNobres">
+    <h1>Cortes nobres</h1>
+    <ul class="imageExotica">
+      <li class="in">
+        <img src="bifeAncho.jpg" title="Bife Ancho"
+          alt="Bife Ancho em cima de uma tábua de corte clara em um fundo preto">
+        <div class="info">
+          <h2>Bife Ancho</h2>
+          <div class="rating">
+            <input type="radio" id="star25" name="rate4" value="5">
+            <label for="star25" title="text"></label>
+            <input type="radio" id="star24" name="rate4" value="4">
+            <label for="star24" title="text"></label>
+            <input checked="" type="radio" id="star23" name="rate4" value="3">
+            <label for="star23" title="text"></label>
+            <input type="radio" id="star22" name="rate4" value="2">
+            <label for="star22" title="text"></label>
+            <input type="radio" id="star21" name="rate4" value="1">
+            <label for="star21" title="text"></label>
+          </div>
+          <a href="https://www.receiteria.com.br/receitas-de-bife-ancho/" target="_blank">Ver receitas</a>
+        </div>
+      </li>
+      <li class="in">
+        <img src="bifeChorizo.jpg" title="Bife de Chorizo"
+          alt="Bife de Chorizo em cima de uma tábua de corte clara em um fundo preto">
+        <div class="info">
+          <h2>Bife de Chorizo</h2>
+          <div class="rating">
+            <input type="radio" id="star30" name="rate5" value="5">
+            <label for="star30" title="text"></label>
+            <input type="radio" id="star29" name="rate5" value="4">
+            <label for="star29" title="text"></label>
+            <input checked="" type="radio" id="star28" name="rate5" value="3">
+            <label for="star28" title="text"></label>
+            <input type="radio" id="star27" name="rate5" value="2">
+            <label for="star27" title="text"></label>
+            <input type="radio" id="star26" name="rate5" value="1">
+            <label for="star26" title="text"></label>
+          </div>
+          <a href="https://www.receiteria.com.br/receitas-de-bife-de-chorizo/" target="_blank">Ver receitas</a>
+        </div>
+      </li>
+      <li class="in">
+        <img src="denver.jpg" title="Corte de Carne Denver"
+          alt="Corte de Carne Denver em cima de uma tábua de corte de pedra preta em um fundo preto com um faca ao lado">
+        <div class="info">
+          <h2>Denver</h2>
+          <div class="rating">
+            <input type="radio" id="star35" name="rate6" value="5">
+            <label for="star35" title="text"></label>
+            <input type="radio" id="star34" name="rate6" value="4">
+            <label for="star34" title="text"></label>
+            <input checked="" type="radio" id="star33" name="rate6" value="3">
+            <label for="star33" title="text"></label>
+            <input type="radio" id="star32" name="rate6" value="2">
+            <label for="star32" title="text"></label>
+            <input type="radio" id="star31" name="rate6" value="1">
+            <label for="star31" title="text"></label>
+          </div>
+
+          <a href="https://g1.globo.com/mt/mato-grosso/noticia/2022/04/24/dia-do-churrasco-chef-ensina-receita-de-denver-steak-com-crosta-de-parmesao.ghtml"
+            target="_blank">Ver receitas</a>
+        </div>
+      </li>
+      <li class="in">
+        <img src="flatIron.jpg" title="Corte de Carne Flat Iron"
+          alt="Corte de Carne Flat Iron em cima de uma tábua de corte escura">
+        <div class="info">
+          <h2>Flat Iron</h2>
+          <div class="rating">
+            <input type="radio" id="star40" name="rate7" value="5">
+            <label for="star40" title="text"></label>
+            <input type="radio" id="star39" name="rate7" value="4">
+            <label for="star39" title="text"></label>
+            <input checked="" type="radio" id="star38" name="rate7" value="3">
+            <label for="star38" title="text"></label>
+            <input type="radio" id="star37" name="rate7" value="2">
+            <label for="star37" title="text"></label>
+            <input type="radio" id="star36" name="rate7" value="1">
+            <label for="star36" title="text"></label>
+          </div>
+
+          <a href="https://www.receiteria.com.br/receitas-de-flat-iron/" target="_blank">Ver receitas</a>
+        </div>
+      </li>
+      <li class="in">
+        <img src="porterhouse.jpg" title="Corte de Carne Porterhouse"
+          alt="Corte de Carne Porterhouse em cima de um fundo de pedra preta">
+        <div class="info">
+          <h2>Porterhouse</h2>
+          <div class="rating">
+            <input type="radio" id="star45" name="rate8" value="5">
+            <label for="star45" title="text"></label>
+            <input type="radio" id="star44" name="rate8" value="4">
+            <label for="star44" title="text"></label>
+            <input checked="" type="radio" id="star43" name="rate8" value="3">
+            <label for="star43" title="text"></label>
+            <input type="radio" id="star42" name="rate8" value="2">
+            <label for="star42" title="text"></label>
+            <input type="radio" id="star41" name="rate8" value="1">
+            <label for="star41" title="text"></label>
+          </div>
+
+          <a href="https://receitas.band.uol.com.br/receita/porterhouse-band-receitas-id-15400" target="_blank">Ver
+            receitas</a>
+        </div>
+      </li>
+  </section>
+
+  <div class="slogan">
+    <span>
+      O MELHOR RESTAURANTE É A NOSSA CASA.
+    </span>
+  </div>
+
+  <section id="quemSomos">
+
+    <h1>Quem Somos</h1>
+
+    <p>Nós somos uma empresa com mais de quarenta anos de experiência em comercialização de produtos de qualidade,
+      especializados em cortes de carne uruguaios e argentinos, filé de peixes e haddock.</p>
+    <p>Aqui no Delícias da Carne Exóticas, acreditamos que comer é uma das grandes maravilhas da vida. E é por isso que
+      trabalhamos com carnes selecionadas, escolhidas com o maior cuidado, sempre frescas e saborosas, para que nossos
+      clientes possam ter a melhor experiência gastronômica possível.</p>
+    <p>Somos um açougue que oferece carnes exóticas para os paladares mais curiosos. Nós acreditamos que comer é uma das
+      grandes maravilhas da vida, e por isso oferecemos uma variedade de opções para que você possa explorar novos
+      sabores.</p>
+    <p>
+      Nós comemos, bebemos, cozinhamos e viajamos para descobrir novos sabores. Adoramos conversar sobre novas
+      experiências gastronômicas e estamos sempre em busca de novidades para trazer para nossos clientes.</p>
+  </section>
+
+  <section id="localizacao">
+
+    <h1>Onde nos Achar</h1>
+    <br>
+    <h4>Rua Voluntários da Pátria, 340 loja F - Botafogo - Rio de Janeiro - RJ</h4>
+    <br>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.879585232436!2d-43.19646642476736!3d-22.954661379221317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe09f122171%3A0xcb6578915f0cf2be!2sR.%20Volunt%C3%A1rios%20da%20P%C3%A1tria%2C%20340%20-%20f%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022270-016!5e0!3m2!1spt-BR!2sbr!4v1683590269971!5m2!1spt-BR!2sbr"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+  </section>
+
+  <section id="contato">
+
+    <h1>Fale Conosco!</h1>
+
+    <p>Preencha o formulário ou envie sua mensagem diretamente para o email:<br>
+      <a href="mailto:deliciasdacarne@gmail.com"><strong>
+          deliciasdacarne@gmail.com</strong></a>
+    </p>
+
+    <form action="/script.js" id="f1" method="post">
+      <label for="nome" class="topicos">Nome: *</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+      <span role="alert" id="nameErrorNome" class="nameError" aria-hidden="true">
+        Digite pelo menos dois nomes!
+      </span>
+      <br><br>
+
+      <label for="email" class="topicos">Email: *</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu email" onblur="validacaoEmail(f1.email)">
+      <span role="alert" id="nameErrorEmail" aria-hidden="true" class="nameError">
+        Digite um email válido. Exemplo: seuemail@email.com
+      </span>
+      <br><br>
+
+      <label for="telefone" class="topicos">Telefone: *</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+      <span role="alert" id="nameErrorTelefone" aria-hidden="true" class="nameError">
+        Digite um telefone válido. Exemplo: 21 98765-4321
+      </span>
+      <br><br>
+
+      <label for="preferencias" class="topicos">Preferências: *</label>
+      <div class="container-radio">
+        <div class="radio">
+        </div>
+        <span>Carnes Exóticas</span>
+        <div class="radio"></div>
+        <span>Carnes Tradicionais</span>
+        <div class="radio"></div>
+        <span>Ambas</span>
+      </div>
+      <span role="alert" id="nameErrorRadio" aria-hidden="true" class="nameError">
+        Selecione uma opção!
+      </span>
+      <br>
+
+      <label for="carnes" class="topicos">Tipo de carne favorita: *</label>
+      <div id="lista">
+        <span>Escolha uma opção</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="hide aberto">
+        <ul>
+          <li>Bovina</li>
+          <li>Suína</li>
+          <li>Aves</li>
+          <li>Frutos do Mar</li>
+          <li>Outras</li>
+        </ul>
+      </div>
+      <input type="text" id="outras" class="hide" name="nome" placeholder="Se quiser digite a sua preferencia">
+      <span role="alert" id="nameErrorSelect" aria-hidden="true" class="nameError">
+        Selecione uma opção!
+      </span>
+      <br>
+
+      <label for="comunicacoes" class="topicos">Receber comunicações por: *</label>
+      <div class="container-radio">
+        <div class="checkbox" id="todos">
+          <i class="fas fa-check" id="hifen"></i>
+        </div>
+        <span class="espaco">Todos os Meios</span>
+        <div class="checkbox">
+          <i class="fas fa-check"></i>
+        </div>
+        <span class="espaco">Email</span>
+        <div class="checkbox">
+          <i class="fas fa-check"></i>
+        </div>
+        <span class="espaco">SMS</span>
+      </div>
+      <span role="alert" id="nameErrorCheckbox" aria-hidden="true" class="nameError">
+        Selecione uma opção!
+      </span>
+      <br>
+
+      <label for="mensagem" class="topicos">Mensagem: *</label><br>
+      <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite uma mensagem"></textarea>
+      <span role="alert" id="nameErrorMensagem" aria-hidden="true" class="nameError">
+        Escreva uma mensagem com no mínimo 5 caracteres.
+      </span>
+      <br>
+      <h6>*Itens Obrigatórios</h6>
+      <br>
+      <input type="button" id="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <h3>Ficou com alguma dúvida? Entre em contato!</h3>
+    <br>
+    <div class="footer-container">
+      <div class="footer-contact">
+        <h4>Telefones: </h3>
+          <p>(21) 2527-7125</p>
+          <p>(21) 97213-0412</p>
+          <p>(21) 99908-4435</p>
+      </div>
+      <div class="footer-social">
+        <h4>Redes Sociais: </h3>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+      </div>
+      <div class="footer-hours">
+        <h4>Funcionamento: </h3>
+          <p>Segunda à sexta das 7:00hs às 19:00</p>
+          <p>Sábados das 7:00 às 15:00hs</p>
+      </div>
+    </div>
+    <br>
+    <p><strong>&copy; 2023 Delicias Da Carne Exóticas.</strong> Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
